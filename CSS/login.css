@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.bodysignin{
+    margin: 0%;
+    padding: 0%;
+}
+
+.allsidesforloginpage {
+    display: flex;
+    height: 625px;
+}
+
+.picturebetweenform {
+    /* height: 100%;    */
+    background-size: cover;
+   }
+   
+
+.pictureLefSide {
+    background-color: beige;
+    height: 625px;
+    width: 950px;
+    border-radius: 35px;
+}
+
+.loginformrightSide {
+    background-color: white;
+    height: 625px;
+    width: 520px;
+}
+
+.loginPageText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.Donothaveaccounttext {
+    color: black;
+    font-size: 15px;
+    margin-left: 42px;
+    margin-right: 20px;
+}
+
+.gotosignuppagediv {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.usernametextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: lightgray;
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+.usernametextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+}
+
+.passwordtextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: lightgray;
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.passwordtextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+
+}
+
+.loginbuttonOnloginform {
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: lightgray;
+    border-style: solid;
+    background-color:  rgb(177, 177, 177);
+    cursor: pointer;
+    /* background: linear-gradient(to right, #348f50, #56b4d3); */
+    background: linear-gradient(to right, #77a1d3, #79cbca);
+
+    border-style: none;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.loginbuttonOnloginform:hover {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Donothaveaccounttext {
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.signuppagelink {
+    margin-top: 13px;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.signuppagelink:hover {
+    margin-top: 13px;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold;
+
+}

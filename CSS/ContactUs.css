@@ -1,0 +1,289 @@
+/* Contact Us */
+
+.contactus-header {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.header-paragraph {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+.Container-of-all-items {
+
+    width: 60%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.line {
+    width: 115px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 145, 255);
+}
+
+
+label {
+    color: rgb(0, 145, 255);
+    ;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.labels-and-textFields input {
+    height: 30px;
+    margin-left: 60px;
+    width: 40vh;
+    border-color: rgb(0, 145, 255);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#Email,
+#Name {
+    margin-left: 65px;
+}
+
+input::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+textarea {
+    background-color: rgb(244, 235, 223);
+    font-size: 15px;
+    padding: 45px;
+    font-weight: bold;
+    width: 350px;
+    resize: none;
+    height: 200px;
+    border-color: rgb(0, 145, 255);
+    border-width: 2px;
+    border-radius: 5px;
+
+}
+
+textarea::placeholder {
+    font-family: "Lato", sans-serif;
+}
+
+
+.submit-button input {
+    background-color: rgb(0, 75, 161);
+    border: rgb(0, 65, 116);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 9px;
+    width: 120px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+
+.submit-button input:hover {
+    background-color: rgb(0, 145, 255);
+    border-color: rgb(0, 145, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icons img {
+    border: 1px solid rgb(244, 234, 234);
+    background-color: white;
+    border-radius: 60px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.icons img:hover {
+    background-color: rgb(0, 145, 255);
+    border-color: rgb(0, 145, 255);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 370px;
+}
+
+.footer {
+    display: flex;
+    margin: 0px;
+}
+
+.all-links-container {
+    display: flex;
+}
+
+.footer-header h1,
+.navs2 h3,
+.QuickLinks-header,
+.Others h3 {
+    color: rgb(0, 145, 255);
+}
+
+.footer-header p {
+    color: aliceblue;
+}
+
+.footer-header {
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.navs1,
+.navs2,
+.Others {
+    padding-left: 60px;
+}
+
+.navs1 ul,
+.navs2 ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.navs1 li,
+.navs2 li {
+    padding-top: 20px;
+}
+
+.navs2 li a,
+.navs1 li a {
+
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0px;
+
+}
+
+.navs2 li a:hover,
+.navs1 li a:hover {
+    color: rgb(0, 145, 255);
+    transition: 0.2s;
+}
+
+.icons2 p {
+    margin: 0px;
+    color: white;
+    padding-top: 5px;
+}
+
+.icons2 {
+    padding-top: 20px;
+}
+
+.icons2 a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icons2 img {
+    height: 20px;
+}
+
+#reserved {
+    font-size: small;
+    color: rgb(0, 145, 255);
+    padding-left: 20px;
+}/*////////////////////////////////////////////////////*/
+
+  
+ /* Dark Mode Styles */
+body.dark-mode1 {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode1 .contactus-header,
+body.dark-mode1 .header-paragraph,
+body.dark-mode1 .line,
+body.dark-mode1 label,
+body.dark-mode1 .icons2 p {
+    color: #e0e0e0;
+}
+
+body.dark-mode1 .Container-of-all-items,
+body.dark-mode1 .details-container,
+body.dark-mode1 textarea {
+    background-color: #333333;
+    color: #e0e0e0;
+}
+
+body.dark-mode1 .labels-and-textFields input {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode1 ::placeholder {
+    color: #b3b3b3;
+}
+
+body.dark-mode1 .submit-button input {
+    background-color: #1e88e5;
+    border-color: #004174;
+}
+
+body.dark-mode1 .submit-button input:hover {
+    background-color: #00529b;
+    border-color: #004174;
+}
+
+body.dark-mode1 .icons img {
+    background-color: #1e1e1e;
+    border-color: #444444;
+}
+
+body.dark-mode1 .icons img:hover {
+    background-color: #00529b;
+    border-color: #004174;
+}
+
+body.dark-mode1 footer {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode1 .footer-header h1,
+body.dark-mode1 .navs2 h3,
+body.dark-mode1 .QuickLinks-header,
+body.dark-mode1 .Others h3 {
+    color: #e0e0e0;
+}
+
+body.dark-mode1 .footer-header p,
+body.dark-mode1 .navs2 li a,
+body.dark-mode1 .navs1 li a {
+    color: #b3b3b3;
+}
+
+body.dark-mode1 .navs2 li a:hover,
+body.dark-mode1 .navs1 li a:hover {
+    color: #e0e0e0;
+}
+
+body.dark-mode1 #reserved {
+    color: #1e88e5;
+}
+
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}

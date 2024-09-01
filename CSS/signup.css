@@ -1,0 +1,165 @@
+.bodysignup{
+    margin:0%;
+    padding:0%;
+    height: 630px;
+}
+
+.allsidesforloginpage {
+    display: flex; 
+    margin: 0%;
+    height: 100%;   
+}
+
+.pictureLefSide {
+    /* background-color: #c0fffe; */
+    height: 100%;
+    /* width: 950px; */
+
+}
+
+.picturebetweenform {
+ /* height: 100%;    */
+ background-size: cover;
+}
+
+.loginformrightSide {
+    background-color: white;
+    height: 100%;
+    width: 520px;
+    
+}
+
+.signupPageText {
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.haveaccounttext {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.gotosigninpagediv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+
+.usernametextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.usernametextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+
+}
+
+.emailtextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.emailtextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+
+}
+
+.passwordtextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.passwordtextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+
+}
+
+.mobilenumbertextfield {
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.mobilenumbertextfield:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.5);
+
+}
+
+.signupbuttonOnloginform {
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: lightgray;
+    border-style: solid;
+    cursor: pointer;
+    /* background: linear-gradient(to right, #348f50, #56b4d3); */
+    background: linear-gradient(to right, #77a1d3, #79cbca);
+    border-style: none;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.signupbuttonOnloginform:hover {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.haveaccounttext {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.loginpagelink {
+    margin-top: 13px;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.loginpagelink:hover {
+    margin-top: 13px;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold;
+}

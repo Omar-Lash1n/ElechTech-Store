@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+
+  background-color: #ffffff;
+
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.row1,
+.row2 {
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 1000px;
+  height: 180px;
+  border: none;
+}
+
+.box1 {
+  background-color: #0F1035;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  width: 669px;
+}
+
+.box1:hover {
+  background-color: #365486;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.box2 {
+  background-color: #7FC7D9;
+  transition: all 0.5s ease-in-out;
+}
+
+.box2:hover {
+  background-color: #365486;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.box3 {
+  background-color: #7FC7D9;
+  transition: all 0.5s ease-in-out;
+}
+
+.box3:hover {
+  background-color: #365486;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.box4 {
+  background-color: #0F1035;
+  transition: all 0.5s ease-in-out;
+}
+
+.box4:hover {
+  background-color: #365486;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.FEATURED-PRODUCTS {
+  color: #0F1035;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+.add-to-cart {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.box5 {
+  width: 115px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #7FC7D9;
+  margin: auto;
+  display: grid;
+
+}
+
+.itemsproducts {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-left: 50px;
+  cursor: pointer;
+
+}
+
+.box {
+  height: 280px;
+  border-radius: 9px;
+
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 45px;
+}
+
+.box:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.09);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: 5px;
+  font-size: 25px;
+  padding-left: 22px;
+  padding-top: 50px;
+  margin: 0;
+
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-left: 22px;
+  margin: 0;
+
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  text-align: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+ 
+}
+
+.Item-name {
+  color: rgb(255, 255, 255);
+  margin-bottom: 170px;
+}
+
+.tv-image {
+  background-image: none;
+  width: 280px;
+  height: 280px;
+}
+
+.move-image {
+  padding-left: 50px;
+  position: absolute;
+  top: 115px;
+  left: 345px;
+}
+
+.rating {
+  width: 50px;
+  height: 100px;
+}
+
+.productsdisplay {
+  width: 300px;
+  height: 200px;
+  background-color: #0F1035;
+  border-radius: 12px;
+  margin-left: 22px;
+}
+
+.filter {
+  width: 90%;
+  height: 40px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  border: solid 1px;
+  border-color: #7FC7D9;
+  background-color: #7FC7D9;
+}
+
+.filtertext {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+
+}
+
+.device,
+.device2 {
+  height: 150px;
+  border-radius: 12px;
+  background: none;
+}
+
+.products {
+  display: flex;
+
+}
+
+.fouritems {
+  display: flex;
+  cursor: pointer;
+  padding-left: 22px;
+}
+
+.productitems {
+  background-color: #ffffff;
+  border: #dddddd 2px solid;
+  color: #365486;
+  border-radius: 12px;
+  margin-right: 20px;
+  transition: all 0.11s ease-in-out;
+
+
+}
+
+.productitems:hover {
+  background-color: #365486;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.picture {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+
+}
+
+.small-icons {
+  width: 100%;
+  height: 100%;
+  background-image: none;
+}
+
+.sale-icon {
+  width: 35px;
+  height: 15px;
+  background-color: #7FC7D9;
+  position: fixed;
+
+
+}
+
+.text-about-item-name {
+  padding-left: 120px;
+  font-size: 25px;
+  float: right 50px;
+  margin: 0;
+  color: #000000;
+}
+
+.text-about-item-nokia {
+  padding-left: 120px;
+  font-size: 25px;
+  float: right 50px;
+  margin: 0;
+
+}
+
+.text-about-item {
+ 
+  padding-left: 70px;
+  font-size: 20px;
+  float: right 50px;
+  margin: 0;
+  color: #333333;
+}
+
+.descibe-item-samsung {
+  padding-left: 3px;
+}
+
+.itemsdescripe {
+  display: flex;
+  padding-left: 55px;
+
+}
+
+.text-about-item-type {
+
+  padding-left: 95px;
+  font-size: 20px;
+  float: right 50px;
+  margin: 0;
+}
+
+.text-about-item-cost {
+  padding-left: 120px;
+  font-size: 20px;
+  float: right 50px;
+  color: green;
+  margin: 0;
+}
+
+.button-order-now {
+  width: 120px;
+  background-color: #ffffff;
+  height: 50px;
+  border-radius: 35px;
+  border: solid 1px;
+  border-color: #c9c9c9;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.button-order-now:hover {
+  background-color: green;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: wheat;
+}
+
+.button {
+  padding: 20px;
+  padding-left: 100px;
+  height: 20px;
+}
+
+.have-text-picture {
+  display: flex;
+  height: 500px;
+}
+
+.picture-above-footer {
+  display: flex;
+}
+
+.above-footer-picture-left {
+  border-radius: 20px;
+  margin-left: 20px;
+
+}
+
+.picture-above-footer-right {
+  border-radius: 20px;
+  margin-left: 45px;
+
+
+}
+
+.what-is-new {
+  color: #353535;
+  margin: 0;
+  font-size: 12px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.what-is-new-text {
+  margin-left: 25px;
+  font-size: 30px;
+  color: #0F1035;
+  font-weight: bold;
+}
+
+.box6 {
+  width: 330px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #7FC7D9;
+  margin: auto;
+}
+
+.header-picture {
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 3px;
+}
+
+
+.nav-elements {
+  background-color: #ffffff;
+  text-align: center;
+  color: #365486;
+
+}
+
+.nav-elements a {
+  background-color: #ffffff;
+  text-align: left;
+  color: #365486;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.search-in-header {
+  width: 200px;
+  height: 25px;
+  border-radius: 15px;
+  border: solid 1px;
+  background-color: #ffffff;
+  padding-left: 50px;
+
+}
+
+.box8 {
+  width: 190px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #7FC7D9;
+  margin: auto;
+
+}
+
+.button-in-picture {
+  width: 120px;
+  background-color: #ffffff;
+  height: 50px;
+  border-radius: 35px;
+  border: solid 1px;
+  border-color: #c9c9c9;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 580px;
+  right: 20px;
+}
+
+.button-in-picture:hover {
+  background-color: green;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: wheat;
+}
+
+
+.payment-items {
+  display: flex;
+
+  padding-left: 75px;
+}
+
+.payment-method {
+  height: 100px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+}
+
+.payment-method:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  transform: scale(1.09);
+}
+
+.payment-method-vodafone-cash {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+}
+
+.payment-method-vodafone-cash:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  transform: scale(1.09);
+}
+
+.payment-method-visa {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+}
+
+.payment-method-visa:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(255, 166, 0);
+  transform: scale(1.09);
+}
+
+.payment-method-bank-elahly {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+}
+
+.payment-method-bank-elahly:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0, 87, 0);
+  transform: scale(1.09);
+}
+
+.payment-method-wepay {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+
+}
+
+.payment-method-wepay:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(141, 0, 99);
+  transform: scale(1.09);
+}
+
+.payment-method-mastercard {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+
+}
+
+.payment-method-mastercard:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(255, 94, 0);
+  transform: scale(1.09);
+}
+
+.payment-method-bankmasr {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+
+}
+
+.payment-method-bankmasr:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(104, 0, 9);
+  transform: scale(1.09);
+}
+
+.payment-method-visa-new {
+  height: 135px;
+  width: 135px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  transition: all 0.10s ease-in-out;
+  overflow: hidden;
+  border: solid 1px;
+  border-color: #ffffff;
+  padding: 20px;
+  margin-right: 35px;
+
+}
+
+.payment-method-visa-new:hover {
+  transform: scale(1.0);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0, 2, 104);
+  transform: scale(1.09);
+}
+
+.payment-picture {
+  width: 100%;
+}
+
+.text-questions {
+  display: flex;
+
+  /* padding: 50px; */
+
+}
+
+.question2 {
+  padding-left: 135px;
+}
+
+.ramadanvideo {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+
+}
+/*////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////////*/
+
+.dark-mode4 {
+  /* Dark mode styles go here */
+  body {
+    background-color: #0F1035;
+    color: #ffffff;
+  }
+
+  .container {
+    background-image: none;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4:hover {
+    background-color: #365486;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .FEATURED-PRODUCTS {
+    color: #ffffff;
+  }
+
+  .box5 {
+    background-color: #7FC7D9;
+  }
+
+  h1,
+  h4,
+  h5 {
+    color: #ffffff;
+  }
+
+  .productsdisplay {
+    background-color: #0F1035;
+  }
+
+  .text-about-item-name,
+  .text-about-item-nokia,
+  .text-about-item,
+  .text-about-item-type {
+    color: #ffffff;
+  }
+
+  .text-about-item-cost {
+    color: green;
+  }
+
+  .button-order-now {
+    background-color: #ffffff;
+    border-color: #c9c9c9;
+    color: #0F1035;
+  }
+
+  .button-order-now:hover {
+    background-color: green;
+    color: wheat;
+  }
+
+  .what-is-new,
+  .what-is-new-text {
+    color: #ffffff;
+  }
+
+  .box6 {
+    background-color: #7FC7D9;
+  }
+
+  .nav-elements,
+  .nav-elements a {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .search-in-header {
+    background-color: #0F1035;
+    border-color: #7FC7D9;
+  }
+
+  .box8 {
+    background-color: #7FC7D9;
+  }
+
+  .button-in-picture {
+    background-color: #ffffff;
+    border-color: #c9c9c9;
+    color: #0F1035;
+  }
+
+  .button-in-picture:hover {
+    background-color: green;
+    color: wheat;
+  }
+
+  .payment-items {
+    padding-left: 75px;
+  }
+
+  .payment-method,
+  .payment-method-vodafone-cash,
+  .payment-method-visa,
+  .payment-method-bank-elahly,
+  .payment-method-wepay,
+  .payment-method-mastercard,
+  .payment-method-bankmasr,
+  .payment-method-visa-new {
+    background-color: #0F1035;
+    border-color: #ffffff;
+  }
+
+  .payment-method:hover,
+  .payment-method-vodafone-cash:hover,
+  .payment-method-visa:hover,
+  .payment-method-bank-elahly:hover,
+  .payment-method-wepay:hover,
+  .payment-method-mastercard:hover,
+  .payment-method-bankmasr:hover,
+  .payment-method-visa-new:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}

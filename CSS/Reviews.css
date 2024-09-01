@@ -1,0 +1,275 @@
+/* zezo fo2 */
+/*////////////////////////*/
+/* #opinion{
+  color: green;
+} */
+.submit-review {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0, 145, 255);
+  margin-bottom: 2rem;
+}
+
+.submit-review h2 {
+  color: rgb(0, 145, 255);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.submit-review form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-review label {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.submit-review input[type="text"],
+.submit-review textarea,
+.submit-review select {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 145, 255);
+  background-color: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+}
+
+.submit-review textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-review input[type="submit"] {
+  background-color: rgb(0, 145, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-review input[type="submit"]:hover {
+  background-color: rgb(0, 100, 200);
+}
+
+.submit-review input[type="submit"]:focus,
+.submit-review input[type="submit"]:active {
+  outline: none;
+  background-color: rgb(0, 80, 180);
+}
+/*//////////////////////////////*/
+/*///////////////////////////////*/
+h1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#header-paragraph {
+  font-size: large;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.line {
+  width: 115px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(0, 145, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding-top: 4vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+}
+
+.reviews-container {
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+}
+
+.reviews-container::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews {
+  padding: 20px;
+}
+
+.review {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 0 4px 8px rgb(0, 145, 255);
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 0.5s ease forwards;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(215, 9, 9, 0.2);
+}
+
+.review h3 {
+  color: rgb(0, 145, 255);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.review p {
+  color: rgb(255, 255, 255);
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+#our-message {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgb(244, 244, 244);
+}
+
+#our-message p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+footer {
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  color: rgb(0, 145, 255);
+  padding: 1rem;
+  width: 100%;
+}
+
+
+/* Animations */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);}
+  
+}
+/*////////////////////////////////////////////////////*/
+
+/*////////////////////////////*/
+/* Dark Mode Styles */
+body.dark-mode2 {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode2 h1,
+body.dark-mode2 #header-paragraph {
+  color: #e0e0e0;
+}
+
+body.dark-mode2 .line {
+  background-color: #1e88e5;
+}
+
+body.dark-mode2 .reviews-container {
+  background-color: #121212;
+}
+
+body.dark-mode2 .review {
+  background-color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 145, 255, 0.4);
+}
+
+body.dark-mode2 .review:hover {
+  box-shadow: 0 8px 16px rgba(215, 9, 9, 0.2);
+}
+
+body.dark-mode2 .review h3 {
+  color: #1e88e5;
+}
+
+body.dark-mode2 .review p {
+  color: #ffffff;
+}
+
+body.dark-mode2 .star {
+  color: gold;
+}
+
+body.dark-mode2 #our-message {
+  background-color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #f4f4f4;
+}
+
+body.dark-mode2 footer {
+  background-color: #1a1a1a;
+  color: #1e88e5;
+}
+/* Dark mode styles for the submit-review section */
+body.dark-mode2 .submit-review {
+  background-color: #333333;
+  box-shadow: 0 4px 8px rgba(0, 145, 255, 0.4);
+}
+
+body.dark-mode2 .submit-review h2 {
+  color: #1e88e5;
+}
+
+body.dark-mode2 .submit-review label {
+  color: #ffffff;
+}
+/*///////////////////////////////////////////////*/
+body.dark-mode2 .submit-review input[type="text"],
+body.dark-mode2 .submit-review textarea,
+body.dark-mode2 .submit-review select {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #1e88e5;
+}
+
+body.dark-mode2 .submit-review input[type="submit"] {
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+body.dark-mode2 .submit-review input[type="submit"]:hover {
+  background-color: #1565c0;
+}
+
+body.dark-mode2 .submit-review input[type="submit"]:focus,
+body.dark-mode2 .submit-review input[type="submit"]:active {
+  background-color: #0d47a1;
+}
